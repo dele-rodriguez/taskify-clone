@@ -69,7 +69,7 @@ export function NavItem({ isExpanded, isActive , organization , onExpand ,}: Nav
                     </span>
                 </div>
             </AccordionTrigger>
-            <AccordionContent>
+            <AccordionContent className=" pt-1 text-neutral-700">
                 {routes.map((route) => (
                     <Button
                         key={route.href}
